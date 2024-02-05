@@ -1,0 +1,19 @@
+.layout {
+  button {
+    background-color: #fff;
+    color: #000;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  .heading {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .inputs {
+    display: flex;
+    gap: 15px;
+  }
+}
